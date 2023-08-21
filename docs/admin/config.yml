@@ -1,8 +1,6 @@
 backend:
   name: github
   repo: marco-caligiuri/test-ssg # Path to your GitHub repository
-  # optional, defaults to master
-  # branch: main
   media_folder: "images/uploads"
   collections:
   - name: "news" # Used in routes, e.g. /admin/collections/blog
